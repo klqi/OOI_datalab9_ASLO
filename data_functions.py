@@ -16,9 +16,6 @@ def set_connection():
 ## helper functions
 # read in OOI data by erddapy
 def read_ooi_data(e, id, start_time, end_time, vars, station):
-  ## debugging
-  print(id)
-  print(vars)
   url_path = e.get_download_url(
       dataset_id = id,
       constraints = {
