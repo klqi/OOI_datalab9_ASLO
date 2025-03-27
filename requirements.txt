@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+erddapy
+ipywidgets
+altair
+seaborn
